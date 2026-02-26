@@ -1,0 +1,49 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f6fbff;
+  --foreground: #0b1b2b;
+  --card: #ffffff;
+  --muted: #e7f4ff;
+  --aqua-50: #effbff;
+  --aqua-200: #bfeaff;
+  --aqua-500: #29c2ff;
+  --aqua-600: #0ea5e9;
+  --sea-900: #042a43;
+  --green-500: #3ac57a;
+  --shadow-soft: 0 18px 45px rgba(3, 35, 62, 0.12);
+  --shadow-card: 0 12px 30px rgba(7, 40, 70, 0.1);
+  --radius-xl: 24px;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-muted: var(--muted);
+  --color-aqua-50: var(--aqua-50);
+  --color-aqua-200: var(--aqua-200);
+  --color-aqua-500: var(--aqua-500);
+  --color-aqua-600: var(--aqua-600);
+  --color-sea-900: var(--sea-900);
+  --color-green-500: var(--green-500);
+  --shadow-soft: var(--shadow-soft);
+  --shadow-card: var(--shadow-card);
+  --radius-xl: var(--radius-xl);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  background: linear-gradient(180deg, #f0f9ff 0%, #ffffff 60%, #e7f4ff 100%);
+  color: var(--foreground);
+  font-family: var(--font-body), system-ui, sans-serif;
+}
+
+::selection {
+  background: rgba(41, 194, 255, 0.35);
+}
