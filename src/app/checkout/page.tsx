@@ -2,6 +2,8 @@ import CheckoutForm from "@/components/CheckoutForm";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 
+export const dynamic = "force-dynamic";
+
 export default function CheckoutPage() {
   return (
     <main className="min-h-screen bg-gradient-to-b from-aqua-50 via-white to-aqua-100">
