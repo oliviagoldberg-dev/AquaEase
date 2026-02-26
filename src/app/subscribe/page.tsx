@@ -3,6 +3,8 @@ import SubscribeForm from "@/components/SubscribeForm";
 import SiteFooter from "@/components/SiteFooter";
 import SiteHeader from "@/components/SiteHeader";
 
+export const dynamic = "force-dynamic";
+
 const pricing = [
   {
     term: "Full year",
