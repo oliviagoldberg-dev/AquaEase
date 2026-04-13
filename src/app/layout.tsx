@@ -16,9 +16,9 @@ const displayFont = Poppins({
 });
 
 export const metadata: Metadata = {
-  title: "AquaEase | FGCU Water Delivery",
+  title: "AquaEase | Water Delivery",
   description:
-    "AquaEase delivers water jugs to FGCU students on a schedule that fits dorm and apartment life.",
+    "AquaEase delivers water jugs to students on a schedule that fits dorm and apartment life.",
 };
 
 export default function RootLayout({
